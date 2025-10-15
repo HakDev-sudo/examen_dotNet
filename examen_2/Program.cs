@@ -1,8 +1,8 @@
-using examen_2.Models;
-using examen_2.Services.Abstractions;
-using examen_2.Services.Implements;
-using examen_2.UnitOfWork.Abstractions;
-using examen_2.UnitOfWork.Implements;
+using examen_2.Infrastructure.Data;
+using examen_2.Application.Interfaces;
+using examen_2.Application.Services;
+using examen_2.Domain.Interfaces;
+using examen_2.Infrastructure.UnitOfWork;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
 
